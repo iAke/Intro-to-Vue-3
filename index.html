@@ -16,6 +16,12 @@
         <div class="product-container">
           <div class="product-image">
             <!-- image goes here -->
+            <img :src="image">
+            <img :alt="description">
+              <a :href="https://miro.medium.com/max/550/1*RA7c8TsgKLowwD2U--qsqg.png">
+            <div :class="isActive">
+            <span :style="isActive">
+            <span :disabled="isDisable">
           </div>
           <div class="product-info">
             <h1>{{ product }}</h1>
